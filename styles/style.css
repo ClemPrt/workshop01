@@ -39,12 +39,18 @@ nav ul li:hover {
 .section1{
     width: 100%;
     color: white;
+    display: flex;
+}
+.section1 #left {
+    width: 60%;
+    line-height: 20px;
+    margin-top: 8%;
 }
 .section1 h2 {
     font-size: 16px;
 }
 .section1 p {
-    width: 40%;
+    width: 80%;
     font-size: 12px;
     margin: 50px 0;
 }
@@ -54,4 +60,58 @@ nav ul li:hover {
     padding: 8px 30px;
     margin-top: 10px;
     font-size: 12px;
+}
+.section1 img {
+    width: 400px;
+    height: 400px;
+}
+
+.section2 {
+    width: 100%;
+    color: white;
+    display: flex;
+    margin: 150px auto;
+}
+.section2 #left {
+    width: 50%;
+}
+.section2 #left p{
+    text-align: center;
+}
+.section2 #right {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.section2 #right p {
+    margin: 50px auto;
+    font-size: 100px;
+    box-sizing: content-box;
+    width: 150px;
+    border: solid #E54997 10px;
+    padding: 10px;
+}
+.section2 #right a {
+    background: linear-gradient(#C24FD7, #E54997);
+    border-radius: 90px;
+    padding: 8px 30px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.section2 img {
+    width: 400px;
+    height: 500px;
+}
+.section3 {
+    width: 100%;
+    text-align: center;
+}
+.section3 h3 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+.section3 img {
+    width: 260px;
+    height: 400px;
 }
