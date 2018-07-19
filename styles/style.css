@@ -40,6 +40,7 @@ nav ul li:hover {
     width: 100%;
     color: white;
     display: flex;
+    margin-top: 50px;
 }
 .section1 #left {
     width: 60%;
@@ -70,7 +71,8 @@ nav ul li:hover {
     width: 100%;
     color: white;
     display: flex;
-    margin: 150px auto;
+    margin: 120px auto;
+
 }
 .section2 #left {
     width: 50%;
