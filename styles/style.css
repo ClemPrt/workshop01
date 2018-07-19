@@ -32,6 +32,7 @@ nav ul li {
     width: 150px;
     text-align: center;
     transition: all 0.2s ease-in;
+    cursor: pointer;
 }
 nav ul li:hover {
     color: #A72D66;
@@ -49,6 +50,7 @@ nav ul li:hover {
 }
 .section1 h2 {
     font-size: 16px;
+    margin: 50px 0px;
 }
 .section1 p {
     width: 80%;
@@ -61,11 +63,12 @@ nav ul li:hover {
     padding: 8px 30px;
     margin-top: 10px;
     font-size: 12px;
-    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 .section1 img {
-    width: 400px;
-    height: 400px;
+    width: 550px;
+    height: 550px;
 }
 
 .section2 {
@@ -118,4 +121,19 @@ nav ul li:hover {
 .section3 img {
     width: 260px;
     height: 400px;
+}
+form{
+    text-align: center;
+    margin: 50px 0px;
+}
+label{
+    color: white;
+}
+input{
+    background-color: transparent;
+    color: white;
+    padding: 10px 100px;
+}
+input[type="email"]:focus {
+    outline: none;
 }
