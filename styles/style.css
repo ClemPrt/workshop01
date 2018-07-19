@@ -60,6 +60,7 @@ nav ul li:hover {
     padding: 8px 30px;
     margin-top: 10px;
     font-size: 12px;
+    cursor: pointer;
 }
 .section1 img {
     width: 400px;
@@ -97,6 +98,7 @@ nav ul li:hover {
     padding: 8px 30px;
     margin-top: 10px;
     font-size: 12px;
+    cursor:  pointer;
 }
 .section2 img {
     width: 400px;
