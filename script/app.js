@@ -1,7 +1,7 @@
 //propulsion fusée
 let propulsion = document.querySelector(".propulsion")
-let chiffre = document.querySelector('.chiffre')
-let fusee = document.querySelector("#image2")
+let countdown = document.querySelector('.countdown')
+let rocket = document.querySelector("#rocket")
 let number = 10
 
 propulsion.addEventListener(
@@ -12,11 +12,11 @@ propulsion.addEventListener(
 
 function decollage() {
     if(number > 0){
-        chiffre.innerHTML = (number -= 1)
+        countdown.innerHTML = (number -= 1)
     } else {
-        chiffre.innerHTML = 0 
-        fusee.style.transform = "translateY(-15000px)"
-        fusee.style.transition = "all 15s"
+        countdown.innerHTML = 0 
+        rocket.style.transform = "translateY(-15000px)"
+        rocket.style.transition = "all 15s"
         interrogation.style.transform = "translateY(-15000px)"
         interrogation.style.transition = "all 15s"
     }

@@ -4,18 +4,19 @@
     <meta charset="utf-8">
     <title>NASA X SPACEX</title>
     <meta name="description" content="Description de ma page">
+    <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <div class="container">
       <header>
-        <div class="header">
-          <h1>NASA x SPACEX</h1>
+        <div id="header" class="header">
+          <h1><a href="index.html">NASA x SPACEX</a></h1>
           <nav>
             <ul>
-              <li>Accueil</li>
-              <li>Caractéristiques</li>
-              <li>Astronautes</li>
+              <li><a href="#header">Accueil</a></li>
+              <li><a href="#section2">Caractéristiques</a></li>
+              <li><a href="#section3">Astronautes</a></li>
             </ul>
           </nav>
         </div>
@@ -27,14 +28,13 @@
           <a href="pages/more.html">Lire plus</a>
         </div>
         <div id="right">
-          <img src="images/hublot.png" alt="" id="image1">
+          <img src="images/window.png" alt="" id="window">
         </div>
       </div>
-      <div class="section2">
+      <div id="section2" class="section2">
           <div id="left">
-<<<<<<< HEAD
               <div class="primarySlide relative">
-                <img src="images/fusee.png" alt="Texte alternatif" id="image2">
+                <img src="images/rocket.png" alt="Texte alternatif" id="rocket">
                 <h2>Falcon Heavy</h2>
                 <div class="absolute">
                   <img src="images/dot.png" alt="">
@@ -42,35 +42,28 @@
                 </div>
               </div>
               <ul class="slides">
-                <li class="current">
-                  <img src="images/small1.png" alt="Falcon Heavy" data-srcBigImg="images/fusee.png">
+                <li>
+                  <img src="images/miniatureRocket.png" alt="Falcon Heavy" data-srcBigImg="images/rocket.png">
                 </li>
-                <li class="current">
-                  <img src="images/small2.png" alt="Calipso" data-srcBigImg="images/satellite.png">
+                <li>
+                  <img src="images/miniatureSatellite.png" alt="Calipso" data-srcBigImg="images/satellite.png">
                 </li>
             <!--<div class="relative">
-              <img src="images/Page 2.png" alt="" id="image2">
+              <img src="images/Page 2.png" alt="" id="rocket">
               <div class="absolute">
                 <img src="images/dot.png" alt="">
                 <p>Le saviez-vous ?</br> La base de lancement de cette fusée ce situe au centre spatial kennedy</p>
               </div>
             </div> -->
-=======
-            <img src="images/Page 2.png" alt="" id="image2">
-            <p>Falcon Heavy</p>
-            <p id="q1">?</p>
-            <p id="q2">?</p>
-            <p id="q3">?</p>
->>>>>>> 7a15480ddc79051dba3a8bae341521db8a972d66
           </div>
           <div id="right">
             <h2>Décollage imminent ?</h2>
-            <p><span class="chiffre">10</span></p>
+            <p><span class="countdown">10</span></p>
             <a><span class="propulsion">Lancement !</span></a>
           </div>
       </div>
       </div>
-      <div class="section3">
+      <div id="section3" class="section3">
         <h3>NASA et SPACEX toujours à la recherche de volontaires !</h3>
         <img src="images/astonaute.png" alt="">
       </div>
