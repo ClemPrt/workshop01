@@ -8,6 +8,17 @@ html, body {
     width: 960px;
     margin: auto;
 }
+.button{
+    background: linear-gradient(#C24FD7, #E54997);
+    border-radius: 90px;
+    padding: 8px 30px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.button:hover{
+    background: transparent;
+    border: 1px solid #C24FD7;
+}
 a{
     text-decoration: none;
     color: white;
@@ -73,13 +84,6 @@ nav ul li:hover {
     font-size: 14px;
     margin: 50px 0;
 }
-.section1 a {
-    background: linear-gradient(#C24FD7, #E54997);
-    border-radius: 90px;
-    padding: 8px 30px;
-    margin-top: 10px;
-    font-size: 12px;
-}
 .section1 img {
     width: 550px;
     height: 550px;
@@ -114,14 +118,6 @@ nav ul li:hover {
     width: 150px;
     border: solid #E54997 10px;
     padding: 10px;
-}
-.section2 #right a {
-    background: linear-gradient(#C24FD7, #E54997);
-    border-radius: 90px;
-    padding: 8px 30px;
-    margin-top: 10px;
-    font-size: 12px;
-    cursor:  pointer;
 }
 .section2 .relative #rocket {
     width: 400px;
