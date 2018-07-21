@@ -27,13 +27,33 @@
           <a href="pages/more.html">Lire plus</a>
         </div>
         <div id="right">
-          <img src="images/Page 1.png" alt="" id="image1">
+          <img src="images/hublot.png" alt="" id="image1">
         </div>
       </div>
       <div class="section2">
           <div id="left">
-            <img src="images/Page 2.png" alt="" id="image2">
-            <p>Falcon Heavy</p>
+              <div class="primarySlide relative">
+                <img src="images/fusee.png" alt="Texte alternatif" id="image2">
+                <h2>Falcon Heavy</h2>
+                <div class="absolute">
+                  <img src="images/dot.png" alt="">
+                  <p>Le saviez-vous ?</br> La base de lancement de cette fusée ce situe au centre spatial kennedy</p>
+                </div>
+              </div>
+              <ul class="slides">
+                <li class="current">
+                  <img src="images/small1.png" alt="Falcon Heavy" data-srcBigImg="images/fusee.png">
+                </li>
+                <li class="current">
+                  <img src="images/small2.png" alt="Calipso" data-srcBigImg="images/satellite.png">
+                </li>
+            <!--<div class="relative">
+              <img src="images/Page 2.png" alt="" id="image2">
+              <div class="absolute">
+                <img src="images/dot.png" alt="">
+                <p>Le saviez-vous ?</br> La base de lancement de cette fusée ce situe au centre spatial kennedy</p>
+              </div>
+            </div> -->
           </div>
           <div id="right">
             <h2>Décollage imminent ?</h2>
@@ -41,15 +61,16 @@
             <a><span class="propulsion">Lancement !</span></a>
           </div>
       </div>
+      </div>
       <div class="section3">
         <h3>NASA et SPACEX toujours à la recherche de volontaires !</h3>
-        <img src="images/page 3.png" alt="">
+        <img src="images/astonaute.png" alt="">
       </div>
       <script src="script/app.js"></script>
     </div>
     <form method="post" action="traitement.php">
       <p>
-        <label for="email">Votre email :</label> :
+        <label for="email">Votre email :</label>
         <input type="email" name="email" id="email" />
       </p>
     </form>
