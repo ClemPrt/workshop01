@@ -48,14 +48,14 @@ nav ul {
     list-style: none;
     display: flex;
 }
-nav ul li {
+nav ul li a{
     list-style: none;
     text-align: center;
     transition: all 0.2s ease-in;
     cursor: pointer;
     margin: 0px 25px;
 }
-nav ul li:hover {
+nav ul li a:hover {
     color: #A72D66;
 }
 
